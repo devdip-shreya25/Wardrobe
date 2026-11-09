@@ -2,7 +2,7 @@ body {
     background-color: #faf6f0;
     text-align: center;
     font-family:'Arial, sans-serif';
-    color: #4a3540;
+    color: #A91845;
     margin: 0;
     padding-bottom: 30px;
 }
@@ -33,6 +33,11 @@ hr {
 .product {
     width: 250px;
 }
+.product img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    color:#A91845;
+}
 
 .product img {
     border-radius: 10px;
@@ -55,12 +60,9 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #8b4552;
-}
-
 button {
     background-color: #6b2d3c;
+    width: 240px;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -69,8 +71,14 @@ button {
     border-radius: 5px;
     font-size: 1rem;
 }
+.product button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    border-color: #8b4552;
+}
 
 img {
+    margin-top: 6px;
     border: 0.2px dashed;
 }
 
